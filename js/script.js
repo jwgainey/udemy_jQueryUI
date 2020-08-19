@@ -22,5 +22,7 @@ $(function() {
     $('#sortable').sortable({connectWith: "#sortableToo", placeholder: "placeholderBox"});
     $('#sortableToo').sortable({connectWith: "#sortable", placeholder: "placeholderBox"});
 
+    // Accordion
+    $('#accordion').accordion({collapsible: true, heightStyle: "content"});
     
 });
