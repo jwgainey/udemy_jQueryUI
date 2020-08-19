@@ -25,4 +25,16 @@ $(function() {
     // Accordion
     $('#accordion').accordion({collapsible: true, heightStyle: "content"});
     
+    // Datepicker
+    $('.date').datepicker({
+        showOtherMonths: true,
+        selectOtherMonths: true,
+        showButtonPanel: true,
+        changeMonth: true,
+        changeYear: true,
+        //numberOfMonths: 2,
+        minDate: -1,
+        maxDate: "1W +5D"
+    });
+
 });
